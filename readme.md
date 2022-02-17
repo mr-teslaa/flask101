@@ -1,10 +1,4 @@
-# Important notes
-
--   _cd = changing directory_
--   _pwd = print working directory_
--   _ll = list view of directory_
--   _.gitignore = ignore any files from uploading on github_
--   _requirements.txt = this file will containe necessary module for this project. you can have this file by this command `pip freeze > requirements.txt`_
+# Task: Create a CLI Calculator
 
 ## Step 0: Creating Virtual Environment
 
@@ -41,3 +35,11 @@ $   env/scripts/activate
 ```bash
 $   pip install flask
 ```
+
+## Important notes
+
+-   _cd = changing directory_
+-   _pwd = print working directory_
+-   _ll = list view of directory_
+-   _.gitignore = ignore any files from uploading on github_
+-   _requirements.txt = this file will containe necessary module for this project. you can have this file by this command `pip freeze > requirements.txt`_
