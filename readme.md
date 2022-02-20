@@ -1,45 +1,21 @@
-# Task: Create a CLI Calculator
+# Task: Find big, bigger, biggest and small, smaller, smallest number using function
 
-## Step 0: Creating Virtual Environment
+## Lesson 1: Conditional Logic
 
-```bash
-$   python -m venv *environment name*
+```py
+if:
+    # code goes here
+elif:
+    # code goes here
+else:
+    # code goes here
 ```
 
-### Warning: never use space on environment name
+## Lesson 1: Function
 
-i.e.
-
-```
-$   python -m venv env
-```
-
-in this case, `env` will be our virutal environment name
-
-## Step 1: Activating Virtual Environment
-
-for cmd:
-
-```bash
-$   env\scripts\activate
+```py
+def function_name():
+    # code goes here
 ```
 
-for bash:
-
-```bash
-$   env/scripts/activate
-```
-
-## Step 2: Installing Flask
-
-```bash
-$   pip install flask
-```
-
-## Important notes
-
--   _cd = changing directory_
--   _pwd = print working directory_
--   _ll = list view of directory_
--   _.gitignore = ignore any files from uploading on github_
--   _requirements.txt = this file will containe necessary module for this project. you can have this file by this command `pip freeze > requirements.txt`_
+`def` means `defination`

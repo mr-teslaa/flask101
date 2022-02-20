@@ -1,15 +1,14 @@
-# method 1
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
-print('a: ', a)
-print('b: ',b)
-print('a+b: ',a+b)
-print('a-b: ', a-b)
+# function
+def findnumber():
+    a = int(input("1st number: "))
+    b = int(input("2nd number: "))
+    c = int(input("3rd number: "))
+    
+    if a>b and a>c:
+        print(f"{a} is big")
+    elif b>a and b>c:
+        print(f"{b} is big")
+    else:
+        print(f"{c} is big")
 
-# method 2
-a = input('Enter 1st number:')
-b = input('Enter 2nd number:')
-print('a: ',int(a))
-print('b: ',int(b))
-print('a+b: ',int(a)+int(b))
-print('a-b: ', int(a)-int(b))
+findnumber()
