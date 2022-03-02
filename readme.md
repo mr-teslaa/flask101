@@ -2,13 +2,13 @@
 
 ## After create & activating virtual environment follow the steps below
 
-### Step 1: Installing Flask or from requirements.txt
+### Step 1: Installing Flask
 
 ```bash
 $   pip install flask
 ```
 
-or
+or from requirements.txt
 
 ```bash
 $   pip install -r reqirements.txt
