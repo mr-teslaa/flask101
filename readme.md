@@ -1,39 +1,17 @@
-# Task: Create a CLI Calculator
+# Task: Create basic flask application
 
-## Step 0: Creating Virtual Environment
+## After create & activating virtual environment follow the steps below
 
-```bash
-$   python -m venv *environment name*
-```
-
-### Warning: never use space on environment name
-
-i.e.
-
-```
-$   python -m venv env
-```
-
-in this case, `env` will be our virutal environment name
-
-## Step 1: Activating Virtual Environment
-
-for cmd:
-
-```bash
-$   env\scripts\activate
-```
-
-for bash:
-
-```bash
-$   env/scripts/activate
-```
-
-## Step 2: Installing Flask
+### Step 1: Installing Flask or from requirements.txt
 
 ```bash
 $   pip install flask
+```
+
+or
+
+```bash
+$   pip install -r reqirements.txt
 ```
 
 ## Important notes
