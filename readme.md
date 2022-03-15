@@ -1,4 +1,6 @@
-# Task: Create basic flask application with dynamic route
+# Day 3 - Jinja Templating
+
+## Task: Create basic flask application with dynamic route
 
 ## After create & activating virtual environment follow the steps below
 
