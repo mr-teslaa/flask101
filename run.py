@@ -1,15 +1,29 @@
-from flask import Flask, render_template
-from flask import request
+from flask import Flask 
+from flask import render_template
+from flask import redirect
+
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
-@app.route('/username/<name>')
-def username(name):
-    return render_template('home.html', username=name)
+@app.route('/layout')
+def layout():
+    return render_template('layout.html')
+
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+
+
+# @app.route('/hossainfoysal')
+# def hfoysal():
+#     return redirect('https://hossainfoysal.com')
 
 if __name__ == "__main__":
     app.run(debug=True)
